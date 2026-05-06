@@ -1,0 +1,16 @@
+runs/
+openlane/designs/*/runs/
+designs/*/runs/
+
+*.log
+*.rpt
+*.csv
+*.json
+*.sdf
+*.vcd
+*.gds
+*.lef
+*.def
+
+.vscode/
+*.swp
