@@ -24,10 +24,10 @@ Sentez sonucunda her hangi bir negative setup veya hold slack durumuyla karsilas
 ---
 ### 📊 Verim (Throughput) Analizi
 
-Bu bölümde, tasarlanan **ChaCha20 Core** ünitesinin ham işlem gücü ile **UART** arayüzünden kaynaklanan darboğazın (bottleneck) teknik karşılaştırması yer almaktadır.
+UART Modulu olmadan ``ChaCha20 Core`` calisma detaylari.
 
-#### 1. Donanım Kapasitesi (Core Performance)
-Sistem `UART` sinirlamasi olmadan assagi daki gibi calismakta.
+#### 1. Core Kapasitesi 
+Sistem `UART` sinirlamasi olmadan assagida belirtilen sekilde calismakta.
 
 * **Islem icin Harcanan Clock Cycle:** 64 Byte blok başına **~24 clock cycle**.
 * **Varsayilan Calisma Frekansi:** 20 MHz.
